@@ -1,0 +1,18 @@
+{
+    "sequence":  4223328417502,
+    "bootstrap":  {
+                      "sha256":  "13800d6291c56585714034d9caf44d3d21f7ed1c577f06f7b75c220d58742eec",
+                      "url":  "https://raw.githubusercontent.com/Thienry18/PortalAkademikGajahMada-Releases/main/releases/9f546b3ee99ebaf91e8a2c7b289cf273b6054c52/bootstrap.zip"
+                  },
+    "publishedAt":  "2026-11-06T14:34:36.2394207Z",
+    "clientCompatibility":  1,
+    "version":  "9f546b3ee99ebaf91e8a2c7b289cf273b6054c52",
+    "platform":  "linux/amd64",
+    "images":  {
+                   "backend":  "docker.io/thien18/portal-akademik-backend@sha256:c28686024b7144bf8427425b74cf7935d0007649dfe660c99a987d683dcc8ab6",
+                   "database":  "docker.io/library/mysql@sha256:5cf1e1293ea42e077e6a22114e6773b9aae3bb8f9933a2acd5a9721518ff8f5b",
+                   "frontend":  "docker.io/thien18/portal-akademik-frontend@sha256:46897205bae5e0811a4d10853238045f722094b85ffd2c56d6a4ceea5a5d807d",
+                   "gateway":  "docker.io/thien18/portal-akademik-gateway@sha256:9d2d36aa0c528c869b4d3ae573fdb00817c0616ba18ed12491886c1b4f7d46a0"
+               },
+    "schemaVersion":  1
+}
